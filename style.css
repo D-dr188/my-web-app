@@ -1,28 +1,38 @@
 body {
-  background-color: #f0f8ff;
-  font-family: Arial, sans-serif;
+  background: linear-gradient(to bottom, #f0f8ff, #e6f0ff);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   text-align: center;
   padding: 50px;
+  color: #333;
 }
 
 h1 {
   color: #007acc;
-  font-size: 36px;
+  font-size: 40px;
+  margin-bottom: 10px;
 }
 
 p {
   font-size: 20px;
-  color: #333;
+  margin: 10px auto;
+  max-width: 600px;
+}
+
+p em {
+  color: #555;
+  font-style: italic;
 }
 
 button {
-  padding: 10px 20px;
+  padding: 12px 25px;
   font-size: 18px;
   background-color: #007acc;
   color: white;
   border: none;
   border-radius: 8px;
   cursor: pointer;
+  margin-top: 20px;
+  transition: background-color 0.3s ease;
 }
 
 button:hover {
